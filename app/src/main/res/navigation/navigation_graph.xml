@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/hungaryFragment">
+    <fragment
+        android:id="@+id/hungaryFragment"
+        android:name="com.example.networkapp.HungaryFragment"
+        android:label="fragment_hungary"
+        tools:layout="@layout/fragment_hungary" />
+    <fragment
+        android:id="@+id/polandFragment"
+        android:name="com.example.networkapp.PolandFragment"
+        android:label="fragment_poland"
+        tools:layout="@layout/fragment_poland" />
+    <fragment
+        android:id="@+id/romaniaFragment"
+        android:name="com.example.networkapp.RomaniaFragment"
+        android:label="fragment_romania"
+        tools:layout="@layout/fragment_romania" />
+    <fragment
+        android:id="@+id/spainFragment"
+        android:name="com.example.networkapp.SpainFragment"
+        android:label="fragment_spain"
+        tools:layout="@layout/fragment_spain" />
+</navigation>

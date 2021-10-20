@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NetworkApp</string>
+    <string name="hungary">Hungary</string>
+    <string name="poland">Poland</string>
+    <string name="romania">Romania</string>
+    <string name="spain">Spain</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

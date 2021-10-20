@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/hungaryFragment"
+        android:enabled="true"
+        android:icon="@drawable/hungary_64"
+        android:title="@string/hungary"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/polandFragment"
+        android:title="@string/poland"
+        android:enabled="true"
+        android:icon="@drawable/poland_64"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/romaniaFragment"
+        android:title="@string/romania"
+        android:enabled="true"
+        android:icon="@drawable/romania_64"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/spainFragment"
+        android:title="@string/spain"
+        android:enabled="true"
+        android:icon="@drawable/spain_64"
+        android:visible="true"/>
+</menu>
